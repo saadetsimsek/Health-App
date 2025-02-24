@@ -7,12 +7,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class OverviewViewController: BaseViewController{
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        view.backgroundColor = .systemBackground
+        title = "High Intensity Cardio"
+        navigationController?.tabBarItem.title = Resources.Strings.TabBar.overview
     }
 
 
